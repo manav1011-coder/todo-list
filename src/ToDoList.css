@@ -1,0 +1,30 @@
+.ToDoStyle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    margin-top: 10px;
+}
+.ToDoStyle button{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 50%;
+    
+}
+li{
+    text-align: left;
+    padding-left: 0px;
+    color: #8566aa;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-left: 10px;
+  
+  }
+.ToDoStyle button:hover{
+    background-color: red;
+}
